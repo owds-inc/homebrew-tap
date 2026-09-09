@@ -6,22 +6,22 @@ class Kairoku < Formula
   on_macos do
     on_arm do
       url "https://github.com/owds-inc/kairoku/releases/download/v0.1.0/kairoku-darwin-arm64"
-      sha256 "22d041aebff246dac574708a6c63c458d5f09de9ad4eb05c3eb780c419f89040"
+      sha256 "0986dda0ae1a4f8f61f49168d44cc1e4eb0ba1d704e55eb55a630e9cecce058f"
     end
     on_intel do
       url "https://github.com/owds-inc/kairoku/releases/download/v0.1.0/kairoku-darwin-x64"
-      sha256 "62db6c3e66d305035caa12bc0046b856d29a8242f92287f380bd8702911bbb3b"
+      sha256 "5a530f953d917af4a19323b0786ea05b8c1d865d36f678a49d910d635b0e5f86"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/owds-inc/kairoku/releases/download/v0.1.0/kairoku-linux-arm64"
-      sha256 "e2399c3065acb060b819caf6d1b7e714f00eacb2bd45f350617d724ca5db8bff"
+      sha256 "d8d804a54e47fdbd406f54af0283ce9c531c4f6573229c9a3945c22685f335d9"
     end
     on_intel do
       url "https://github.com/owds-inc/kairoku/releases/download/v0.1.0/kairoku-linux-x64"
-      sha256 "c8a2c8a5c953e49def7eff218daa3fe08088bc7c2281ad7e2091d44bc0169d72"
+      sha256 "86acae1a08f8a25d54f0180115d15a4e8e6035bbfcfcd463dcb44bbbeb9a290c"
     end
   end
 
